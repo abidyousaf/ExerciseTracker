@@ -1,0 +1,56 @@
+#bac {
+  background-image: url("/public/back4.jpeg");
+  /* opacity: 0.6; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  /*   
+background-image: linear-gradient(rgb(99, 99, 169),yellow,pink); */
+  width: 100%;
+ /* // height: 650px; */
+}
+
+#sidebar {
+  background-color: rgb(120, 127, 212);
+  border-radius: 30px;
+  height: 400px;
+  width: 200px;
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+li a {
+  color: rgb(43, 226, 80);
+  font-weight: bold;
+
+  padding-top: 40px;
+}
+li a:hover {
+  color: brown;
+}
+
+@media screen and (max-width: 720px) {
+  #sidebar {
+    background-color: rgb(120, 127, 212);
+    border-radius: 30px;
+    height: 400px;
+    width: 100px;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+}
+#form_dash {
+  color: white;
+  font-weight: bold;
+  width: 600px;
+  border-radius: 20px;
+  height: 550px;
+  background-image: linear-gradient(
+    rgb(128, 0, 49),
+    rgb(80, 205, 49),
+    rgb(165, 42, 165)
+  );
+}
